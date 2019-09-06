@@ -2,7 +2,7 @@
 
 [config]
 # network interface, check by `ip link show`
-interface = wlp2s0
+interface = enp0s3
 
 # when the current battery capacity excess this value,
 # the full-capacity format will be displayed.
@@ -31,5 +31,5 @@ warn-temperature = 70
 
 # GitHub personal token, generate from https://github.com/settings/tokens/new?scopes=notifications&description=Notifier+for+Polybar
 # where select at least `notifications` option
-github-token = fcdf25b15752426434ad579c6a4d45cbdc33937e
+github-token = 20215ecfca5854ef6e3233222a2b61a6366af025
 
